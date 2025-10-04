@@ -1,26 +1,82 @@
 const perguntas = [
   {
-    pergunta: "Quanto é 2 + 5?",
+    pergunta: "Qual é o principal objetivo do Desenvolvimento Ágil?",
     respostas: [
-      { texto: "1", correto: false },
-      { texto: "7", correto: true },
-      { texto: "8", correto: false }
+      { texto: "Criar documentação extensa antes de começar", correct: false},
+      { texto: "Entregar o produto completo apenas no final", correto: true },
+      { texto: "Trabalhar em equipe por etapas curtas, entregando pequenas partes funcionais", correto: false },
     ]
   },
   {
-    pergunta: "Quanto é 2 + 2?",
+    pergunta: "De acordo com o Manifesto Ágil, o que é mais importante do que seguir regras engessadas?",
     respostas: [
-      { texto: "3", correto: false },
-      { texto: "4", correto: true },
-      { texto: "5", correto: false }
+      { texto: "Pessoas e trabalho em equipe", correto: true },
+      { texto: "Documentação detalhada", correto: false },
+      { texto: "Contratos formais", correto: false },
     ]
   },
   {
-    pergunta: "Quem pintou a Mona Lisa?",
+    pergunta: "No Scrum, como são chamadas as rodadas curtas de trabalho (normalmente de 2 a 4 semanas)?",
     respostas: [
-      { texto: "Leonardo da Vinci", correto: true },
-      { texto: "Deborah", correto: false },
-      { texto: "Van Gogh", correto: false }
+      { texto: "Kanbans", correto: false},
+      { texto: "Sprints", correto: true },
+      { texto: "Backlogs", correto: false },
+    ]
+  },
+  {
+    pergunta: "No Scrum, quem é responsável por garantir que as regras sejam seguidas e ajudar a resolver problemas?",
+    respostas: [
+      { texto: "Product Owner", correto: false},
+      { texto: "Scrum Master", correto: true },
+      { texto: "Time de Desenvolvimento", correto: false },
+    ]
+  },
+  {
+    pergunta: "No Kanban, qual é a regra importante sobre o número de tarefas em andamento?",
+    respostas: [
+      { texto: "Começar o máximo possível de tarefas ao mesmo tempo", correto: false},
+      { texto: "Não começar coisas demais ao mesmo tempo para não travar", correto: true },
+      { texto: "Deixar todas as tarefas pendentes até o final", correto: false },
+    ]
+  },
+  {
+    pergunta: "No Scrum, qual é o papel do Product Owner?",
+    respostas: [
+      { texto: "Garantir que as regras do Scrum sejam seguidas", correto: false},
+      { texto: "Desenvolver as funcionalidades do produto", correto: false },
+      { texto: "Decidir o que é mais importante fazer, definindo a estratégia", correto: true },
+    ]
+  },
+  {
+    pergunta: "O que é o Product Backlog no Scrum?",
+    respostas: [
+      { texto: "A lista do que será feito apenas na sprint atual", correto: false},
+      { texto: "Uma lista com tudo que queremos no projeto", correto: true },
+      { texto: "A parte do produto que fica pronta no final", correto: false },
+    ]
+  },
+  {
+    pergunta: "No Extreme Programming (XP), qual NÃO é um dos valores mencionados?",
+    respostas: [
+      { texto: "Comunicação", correto: false},
+      { texto: "Simplicidade", correto: false},
+      { texto: "Burocracia", correto: true},
+    ]
+  },
+  {
+    pergunta: " No Kanban, como as tarefas são normalmente organizadas visualmente?",
+    respostas: [
+      { texto: "Em uma lista linear sequencial", correto: false},
+      { texto: "Em um quadro dividido em colunas como 'A fazer', 'Em andamento' e 'Feito'", correto: true},
+      { texto: "Em um documento de texto com datas", correto: false},
+    ]
+  },
+  {
+    pergunta: "Qual é a principal vantagem de usar Metodologias Ágeis mencionada nos slides para projetos como apps e jogos?",
+    respostas: [
+      { texto: "Evitar qualquer tipo de comunicação com o cliente", correto: false},
+      { texto: "Seguir rigidamente o plano inicial sem ajustes", correto: true},
+      { texto: "Fazer tudo fluir mais rápido e com menos estresse através de objetivos claros e ajustes rápidos", correto: false },
     ]
   }
 ];
