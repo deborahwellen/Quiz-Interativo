@@ -4,6 +4,34 @@
     margin: 0;
     font-family: Times, Times New Roman, serif;
 }
+.menu{
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    height: 30px;
+    z-index:1000;
+    background-color: #d8bfd8;
+}
+
+ul{
+    position: fixed;
+    top: 0;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 50px;
+    margin: 4%;
+}
+
+a{
+    text-decoration: none;
+        color: black;
+
+}
 button{
     cursor: pointer;
 }
